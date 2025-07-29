@@ -19,7 +19,7 @@ Já por este [link](https://github.com/fellipe753/eda_churn_telecom/blob/main/te
 * Construção de modelo base para comparação;
 * Treino de 4 modelos e métricas de sucesso;
 * Aprimoramento dos modelos;
-* Validação do modelo com dados de teste 
+* Validação do modelo com dados de teste;
 * Relatório com conclusão e insights.
 
 <p align="right">
