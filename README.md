@@ -3,8 +3,8 @@
 # Projeto de machine learning para detecção de churn em uma empresa de telecom
 
 
-Este projeto surgiu de um curso em parceria da Oracle, Clearsale e Alura. Consiste em uma análise exploratória de dados (_EDA_) de churn de clientes em uma empresa de telecom e um projeto de machine learning para prever clientes que irão evadir da empresa. O objetivo deste trabalho é identificar atributos que possam estar influenciando na alta do churn desta empresa e realizar treino e teste de modelos de machine learning para detecçaõ do churn.
-Toda análise se dá utilizando a linguagem python em um notebok do google colab.
+Este projeto surgiu de um curso em parceria da Oracle, Clearsale e Alura. Consiste em uma análise exploratória de dados (_EDA_) de churn de clientes em uma empresa de telecom e um projeto de machine learning para prever clientes que irão evadir da empresa. O objetivo deste trabalho é identificar atributos que possam estar influenciando na alta do churn desta empresa e realizar treino e teste de modelos de machine learning para detecção do churn.
+Toda análise se dá utilizando a linguagem python em um notebook do google colab.
 
 Neste [link](https://colab.research.google.com/drive/1zva3Sl3HGKHBYy42pT-zGiTHWHyuZqH2?usp=sharing), você poderá ver o projeto e interagir com gráficos gerados por meio da biblioteca plotly.
 
@@ -34,7 +34,15 @@ Cabe a empresa decidir qual destes modelos escolher. Caso o custo de falsos posi
 | Acurácia    | 0.6525       | 0.7491        | 0.7491              | 0.7249  | Proporção total de acertos (churn e não churn) entre todas as previsões.                                     |
 | F1-Score    | 0.5759       | **0.6334**        | 0.6327              | 0.6126  | Média harmônica entre precisão e recall. Mede o equilíbrio entre detectar churn e evitar falsos positivos.  |
 
+Abaixo é ilustrada a matriz de confusão do modelo RandomForest aprimorado:
+*   Verdadeiros positivos: (749) O modelo previu “sem churn” e o cliente realmente ficou.
+*   Falsos positivos: (284) O modelo previu “vai sair”, mas o cliente ficou. Isso pode gerar custo desnecessário, como dar desconto para quem não ia sair.
+*   Falsos negativos: (69) O modelo previu “vai ficar”, mas o cliente saiu.
+*   Verdadeiros positivos: (305) O modelo previu “vai sair” e o cliente realmente saiu.
 
+<p align="center">
+  <img src="rf_aprimorado.png" alt="Random Forest Aprimorado" width="600">
+</p>
 
 
 
