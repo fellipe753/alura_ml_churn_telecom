@@ -47,7 +47,7 @@ Abaixo é ilustrada a matriz de confusão do modelo RandomForest aprimorado:
 ## Ações a serem tomadas visando a redução do churn
 Baseado nos resultados e nas variáveis usadas, a empresa pode buscar formas de fidelizar o cliente, garantindo que eles possuam contratos mais longos ao invés de mensais. Essa é uma ação bem comum em empresas de telecom, onde é possível ofertar preços melhores ou produtos agregados para contratos mais longos.
 
-Outro ponto imporante, é que o tipo de internet "fibra ótica" se mostrou importante na decisão dos clientes evadirem. Esse tipo de tecnologia é geralmente muito rápida e robusta, mas nesse caso pode mostrar que existe algum problema, seja de capacidade de rede, excessivas quedas ou interrupções longas. A empresa, junto com a equipe técnica e engenharia de capacidade pode avaliar melhor caso, cruzando com reclamações de clientes para detectarem a causa raiz.
+Outro ponto imporante, é que o tipo de internet "fibra óptica" se mostrou importante na decisão dos clientes evadirem. Esse tipo de tecnologia é geralmente muito rápida e robusta, mas nesse caso pode mostrar que existe algum problema, seja de capacidade de rede, excessivas quedas ou interrupções longas. A empresa, junto com a equipe técnica e engenharia de capacidade pode avaliar melhor caso, cruzando com reclamações de clientes para detectarem a causa raiz.
 
 Quanto ao modelo a ser usado, vai depender se a empresa busca um número maior de acertos no churn sem se preocupar com os falsos positivos, ou se preferem ter um balanceamento entre entre esses dois números. Campanhas para evitar o churn podem ser custosas e a empresa precisa se planejar bem para esta ação.
 
