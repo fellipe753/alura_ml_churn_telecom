@@ -8,7 +8,7 @@ Toda análise se dá utilizando a linguagem python em um notebook do google cola
 
 Neste [link](https://colab.research.google.com/drive/1zva3Sl3HGKHBYy42pT-zGiTHWHyuZqH2?usp=sharing), você poderá ver o projeto e interagir com gráficos gerados por meio da biblioteca plotly.
 
-Já por este [link](https://github.com/fellipe753/eda_churn_telecom/blob/main/telecom_churn.ipynb), você poderá ver o projeto sem os gráficos da plotly que não são compatíveis com o github.
+Já por este [link](https://github.com/fellipe753/alura_ml_churn_telecom/blob/61849ffdd90567994c2a9c9780fa6a279041cbf6/C3_Telecom_Churn.ipynb), você poderá ver o projeto sem os gráficos da plotly que não são compatíveis com o github.
 
 
 ## Etapas:
