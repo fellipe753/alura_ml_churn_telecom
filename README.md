@@ -23,13 +23,18 @@ Já por este [link](https://github.com/fellipe753/eda_churn_telecom/blob/main/te
 * Relatório com conclusão e insights.
 
 ## Resultados
-Após testar milhares de combinações, é apresentado a melhor combinação de cada um dos tipos de modelos:
+Após testar milhares de combinações, é apresentado a melhor combinação de cada um dos tipos de modelos. Os modelos de RandomForest, Logistic Regression e XGBoost ficaram muito próximos nos resultados, sendo mais equilibrados entre `recall`e `precision`. Já o DecisionTree teve o melhor `recall`, identificando aproximadamente 89% dos churns. Entretanto, ele é o que mais sofre com falsos positivos.
+
+Cabe a empresa decidir qual destes modelos escolher. Caso o custo de falsos positivos não seja problema, o DecisionTree será a melhor escolha, caso contrário pode optar por um dos outros 3.
+
 | Métrica     | DecisionTree | RandomForest | LogisticRegression | XGBoost | Descrição                                                                 |
 |-------------|--------------|---------------|---------------------|---------|---------------------------------------------------------------------------|
 | Recall      | **0.8877**      | 0.8155        | 0.8128              | 0.8182  | Proporção de clientes que realmente saíram (churn) e foram corretamente identificados. Alta sensibilidade. |
 | Precisão    | 0.4262       | 0.5178        | 0.5179              | 0.4896  | Proporção de previsões de churn que estavam corretas. Alta precisão significa menos falsos positivos.       |
 | Acurácia    | 0.6525       | 0.7491        | 0.7491              | 0.7249  | Proporção total de acertos (churn e não churn) entre todas as previsões.                                     |
 | F1-Score    | 0.5759       | **0.6334**        | 0.6327              | 0.6126  | Média harmônica entre precisão e recall. Mede o equilíbrio entre detectar churn e evitar falsos positivos.  |
+
+
 
 
 
