@@ -22,6 +22,17 @@ Já por este [link](https://github.com/fellipe753/eda_churn_telecom/blob/main/te
 * Validação do modelo com dados de teste;
 * Relatório com conclusão e insights.
 
+## Resultados
+Após testar milhares de combinações, é apresentado a melhor combinação de cada um dos tipos de modelos:
+| Métrica     | DecisionTree | RandomForest | LogisticRegression | XGBoost | Descrição                                                                 |
+|-------------|--------------|---------------|---------------------|---------|---------------------------------------------------------------------------|
+| Recall      | **0.8877**      | 0.8155        | 0.8128              | 0.8182  | Proporção de clientes que realmente saíram (churn) e foram corretamente identificados. Alta sensibilidade. |
+| Precisão    | 0.4262       | 0.5178        | 0.5179              | 0.4896  | Proporção de previsões de churn que estavam corretas. Alta precisão significa menos falsos positivos.       |
+| Acurácia    | 0.6525       | 0.7491        | 0.7491              | 0.7249  | Proporção total de acertos (churn e não churn) entre todas as previsões.                                     |
+| F1-Score    | 0.5759       | **0.6334**        | 0.6327              | 0.6126  | Média harmônica entre precisão e recall. Mede o equilíbrio entre detectar churn e evitar falsos positivos.  |
+
+
+
 <p align="right">
   <img src="python.png" alt="drawing" width="40">
 </p>
