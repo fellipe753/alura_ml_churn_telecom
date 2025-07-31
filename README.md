@@ -34,7 +34,7 @@ Cabe a empresa decidir qual destes modelos escolher. Caso o custo de falsos posi
 | Acurácia    | 0.6525       | 0.7491        | 0.7491              | 0.7249  | Proporção total de acertos (churn e não churn) entre todas as previsões.                                     |
 | F1-Score    | 0.5759       | **0.6334**        | 0.6327              | 0.6126  | Média harmônica entre precisão e recall. Mede o equilíbrio entre detectar churn e evitar falsos positivos.  |
 
-Abaixo é ilustrada a matriz de confusão do modelo RandomForest aprimorado:
+Abaixo é ilustrada a matriz de confusão do modelo RandomForest aprimorado, que possui o melhor equilíbrio entre `recall`e `precision`:
 *   Verdadeiros positivos: (749) O modelo previu “sem churn” e o cliente realmente ficou.
 *   Falsos positivos: (284) O modelo previu “vai sair”, mas o cliente ficou. Isso pode gerar custo desnecessário, como dar desconto para quem não ia sair.
 *   Falsos negativos: (69) O modelo previu “vai ficar”, mas o cliente saiu.
